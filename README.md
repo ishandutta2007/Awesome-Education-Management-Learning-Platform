@@ -1,6 +1,6 @@
 # Awesome-Education-Management-Learning-Platform
 
-# Top Education Management & Learning Platform Ecosystem
+## Top Education Management & Learning Platform Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on LMS Course Delivery, Student Information Systems & Self-Hosted Learning Infrastructure*  
