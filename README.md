@@ -15,23 +15,28 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global Learning Management System (LMS) and education management software market is estimated at **$24B–$35B**, with projections crossing **$100B+** by the mid-2030s at a 15–18% CAGR driven by hybrid learning, corporate upskilling, and generative AI adoption. The sector is **moderately to highly fragmented** rather than winner-take-all—while giants like Instructure, PowerSchool, and Google hold large academic shares, hundreds of specialized regional, K-12, corporate, and open-source platforms (such as Moodle) sustain significant independent footprints alongside continuous private-equity consolidation.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Canvas LMS (Cloud)](https://www.instructure.com/canvas)** | Modern, widely-adopted LMS with clean UX and strong assignment workflows. Canvas Cloud is the hosted version used by most institutions—the open-source core is self-hostable but resource-heavy [citation:9]. | Quote-only (institutional licenses **$5,000–$50,000+ per year**) [citation:1] | No free tier; demo via sales |
-| **[Blackboard Learn](https://www.blackboard.com/)** | Enterprise LMS for higher education and K-12 districts. Comprehensive course delivery and administration features. | Quote-only (**$50,000–$100,000+** for institutional licenses) [citation:1] | No free tier; demo via sales |
-| **[PowerSchool](https://www.powerschool.com/)** | Leading K-12 student information system (SIS) with gradebook, attendance, and parent portal. | Quote-only (district-level contract) | No free tier; demo via sales |
-| **[Schoology (PowerSchool)](https://www.schoology.com/)** | K-12 LMS and social learning platform. Combines course management with district-wide communication. | Quote-only | No free tier; demo via sales |
-| **[Google Classroom](https://classroom.google.com/)** | Free LMS for schools using Google Workspace for Education. Simple assignment distribution and grading. | **Free** with Google Workspace for Education | **Free**: full Classroom functionality for qualifying educational institutions |
-| **[D2L Brightspace](https://www.d2l.com/)** | Enterprise LMS focused on accessibility and adaptive learning. Popular in higher education and corporate training. | Quote-only | No free tier; demo via sales |
-| **[TalentLMS](https://www.talentlms.com/)** | Cloud LMS for corporate training and small teams. Quick setup with course authoring and reporting. | From **$69/month** (up to 40 users) | Free plan available (limited users/features) |
-| **[CYPHER Learning](https://www.cypherlearning.com/)** | AI-powered LMS for schools and businesses. Combines course delivery with automation and analytics. | Quote-only | No free tier; demo via sales |
+| Product | Valuation / Revenue Scale | Description | Starting Pricing | Free Tier / Trial Limits |
+|---------|---------------------------|-------------|------------------|--------------------------|
+| **[Google Classroom](https://classroom.google.com/)** | **~$3.6T Market Cap** (~$471B TTM Revenue, Alphabet Inc.) | Cloud-based education and classroom management suite integrated with Google Workspace. | **$0/month** (Core Classroom with Google Workspace for Education Fundamentals); paid upgrades start at **$6/user/year** (Education Plus) or **$3/user/month** (Teaching & Learning) | **Free forever plan** (Google Workspace Education Fundamentals: up to 1,000 members/class, 100 TB pooled institution storage; max 20 simultaneous class postings) |
+| **[PowerSchool](https://www.powerschool.com/)** | **$5.6B Enterprise Value** (~$740M Revenue, acquired by Bain Capital) | Cloud K-12 student information system (SIS) for student data, attendance, state reporting, and grading. | From **$10/student/year** (~$3,000–$5,000 annual minimum contract baseline + implementation fees) | **No free tier or public free trial**; evaluation restricted to scheduled sales demos and guided consultations |
+| **[Canvas LMS (Cloud)](https://www.instructure.com/canvas)** | **$4.8B Enterprise Value** (~$530M Revenue, Instructure acquired by KKR) | Cloud-hosted LMS standard in higher education and K-12 with comprehensive course workflows. | From **$3–$12/student/year** (~$10,000/year minimum institutional contract baseline) | **Free forever plan** (Canvas Lite / Free-for-Teacher: max 5 published courses, 50 students/course, 500 MB course storage, non-commercial use only) |
+| **[Blackboard Learn](https://www.blackboard.com/)** | **~$3B Valuation at merger** (~$240M Blackboard T&L Revenue, emerged post-restructuring under Blackboard, Inc.) | Enterprise LMS for universities and large school districts with assessment and virtual classroom tools. | From **$9,500/year** (base institutional license tier, scaling to $50,000–$100,000+ for large universities) | **30-day free trial** (educator sandbox demo environment for course evaluation; no live SIS sync or permanent free tier) |
+| **[D2L Brightspace](https://www.d2l.com/)** | **~$484M Enterprise Value / ~$615M CAD Market Cap** (~$223M USD Revenue, TSX: DTOL) | Cloud LMS known for competency-based learning, accessibility, and predictive learning analytics. | From **$7–$15/user/year** (~$30,000/year minimum annual contract baseline for Brightspace Core) | **30-day free trial** (full access to Brightspace course authoring and teaching tools; evaluation environment without custom SIS integration) |
+| **[TalentLMS](https://www.talentlms.com/)** | **~$60M ARR** (Epignosis, backed by Insight Partners & PeakSpan) | Cloud LMS tailored for corporate training, SMB compliance, and rapid course authoring. | **$119/month** billed annually (Core plan, up to 40 users; monthly billing from $149/month) | **Free forever plan** (capped at 5 registered users, 10 active courses, and test-only AI credits; TalentLMS branding included) |
+| **[CYPHER Learning](https://www.cypherlearning.com/)** | **$40M Funding Raised** (~$10M–$50M estimated revenue, Invictus Growth Partners) | AI-powered learning platform with generative course building for corporate training and higher education. | From **$12,000/year** (AWS marketplace baseline tier, minimum 100 users, billed annually) | **Guided sales demo / restricted pilot trial** (no self-serve free plan or open public trial) |
+| **[Schoology (PowerSchool)](https://www.schoology.com/)** | **Part of PowerSchool ($5.6B EV)** (~$740M parent revenue) | K-12 learning management system uniting digital curriculum, formative assessments, and parent portals. | From **$10/student/year** (enterprise district contract baseline + implementation fees) | **No public free trial or self-serve tier** (legacy basic plan retired; district-level pilots available via sales consultation only) |
 
 ## Open-Source GitHub Projects
 
