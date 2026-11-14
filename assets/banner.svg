@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0a0e17" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(56, 189, 248, 0.15)" />
+      <stop offset="100%" stop-color="rgba(129, 140, 248, 0.05)" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(192, 132, 252, 0.15)" />
+      <stop offset="100%" stop-color="rgba(56, 189, 248, 0.05)" />
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .grid-line { stroke: rgba(255, 255, 255, 0.04); stroke-width: 1; }
+    .pulse-orb-1 {
+      animation: floatOrb1 8s ease-in-out infinite alternate;
+    }
+    .pulse-orb-2 {
+      animation: floatOrb2 10s ease-in-out infinite alternate;
+    }
+    .wave-line {
+      stroke-dasharray: 6 6;
+      animation: dashMove 30s linear infinite;
+    }
+    .badge-pill {
+      animation: pulsePill 4s ease-in-out infinite alternate;
+    }
+    .particle {
+      animation: particleFade 6s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatOrb1 {
+      0% { transform: translate(0px, 0px) scale(1); }
+      100% { transform: translate(40px, 30px) scale(1.15); }
+    }
+    @keyframes floatOrb2 {
+      0% { transform: translate(0px, 0px) scale(1); }
+      100% { transform: translate(-50px, -20px) scale(1.2); }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -300; }
+    }
+    @keyframes pulsePill {
+      0% { opacity: 0.85; transform: scale(1); }
+      100% { opacity: 1; transform: scale(1.02); }
+    }
+    @keyframes particleFade {
+      0% { opacity: 0.2; transform: translateY(0px); }
+      50% { opacity: 0.8; }
+      100% { opacity: 0.3; transform: translateY(-15px); }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" stroke="#1f2937" stroke-width="2"/>
+
+  <!-- Grid overlay -->
+  <g class="grid-line">
+    <line x1="100" y1="0" x2="100" y2="420" />
+    <line x1="200" y1="0" x2="200" y2="420" />
+    <line x1="300" y1="0" x2="300" y2="420" />
+    <line x1="400" y1="0" x2="400" y2="420" />
+    <line x1="500" y1="0" x2="500" y2="420" />
+    <line x1="600" y1="0" x2="600" y2="420" />
+    <line x1="700" y1="0" x2="700" y2="420" />
+    <line x1="800" y1="0" x2="800" y2="420" />
+    <line x1="900" y1="0" x2="900" y2="420" />
+    <line x1="1000" y1="0" x2="1000" y2="420" />
+    <line x1="1100" y1="0" x2="1100" y2="420" />
+
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+  </g>
+
+  <!-- Dynamic Glowing Background Orbs (Kept behind foreground text) -->
+  <g filter="url(#glow)">
+    <circle class="pulse-orb-1" cx="220" cy="120" r="130" fill="#38bdf8" opacity="0.18" />
+    <circle class="pulse-orb-2" cx="980" cy="280" r="150" fill="#c084fc" opacity="0.18" />
+    <circle class="pulse-orb-1" cx="720" cy="90" r="100" fill="#818cf8" opacity="0.15" />
+  </g>
+
+  <!-- Subtle dynamic animated wave lines -->
+  <path class="wave-line" d="M -50 330 Q 300 240 600 320 T 1250 290" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="2" />
+  <path class="wave-line" d="M -50 360 Q 350 280 650 350 T 1250 330" fill="none" stroke="rgba(192, 132, 252, 0.2)" stroke-width="1.5" />
+
+  <!-- Dynamic floating particles -->
+  <circle class="particle" cx="150" cy="270" r="3" fill="#38bdf8" />
+  <circle class="particle" cx="320" cy="80" r="2.5" fill="#818cf8" style="animation-delay: 1.5s;" />
+  <circle class="particle" cx="870" cy="110" r="3.5" fill="#c084fc" style="animation-delay: 2.3s;" />
+  <circle class="particle" cx="1060" cy="180" r="2" fill="#38bdf8" style="animation-delay: 3.1s;" />
+  <circle class="particle" cx="620" cy="380" r="3" fill="#818cf8" style="animation-delay: 0.8s;" />
+
+  <!-- TOP PILL BADGE -->
+  <g class="badge-pill" transform="translate(425, 42)">
+    <rect width="350" height="34" rx="17" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(129, 140, 248, 0.35)" stroke-width="1"/>
+    <circle cx="20" cy="17" r="5" fill="#34d399">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="35" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#93c5fd" letter-spacing="1.5">CURATED AWESOME ECOSYSTEM</text>
+  </g>
+
+  <!-- FOREGROUND TITLES (Guaranteed crisp foreground visibility) -->
+  <!-- Main Title -->
+  <text x="600" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+    Awesome Education Management
+  </text>
+  <text x="600" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="url(#accentGrad)" letter-spacing="0.5">
+    &amp; Learning Platforms
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="240" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+    Enterprise SaaS Suites &bull; Open-Source LMS Platforms &bull; Student Information Systems (SIS)
+  </text>
+
+  <!-- HIGHLIGHT CARDS (Bottom Feature Badges) -->
+  <g transform="translate(180, 280)">
+    <!-- Card 1 -->
+    <rect width="250" height="74" rx="12" fill="url(#cardGrad1)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.2"/>
+    <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#38bdf8">🎓</text>
+    <text x="48" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">LMS Course Delivery</text>
+    <text x="20" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">Moodle &bull; Canvas &bull; Open edX &bull; Frappe</text>
+
+    <!-- Card 2 -->
+    <rect x="290" width="260" height="74" rx="12" fill="url(#cardGrad2)" stroke="rgba(192, 132, 252, 0.3)" stroke-width="1.2"/>
+    <text x="310" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#c084fc">🏫</text>
+    <text x="338" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Student Information Systems</text>
+    <text x="310" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">PowerSchool &bull; Gibbon &bull; RosarioSIS</text>
+
+    <!-- Card 3 -->
+    <rect x="580" width="260" height="74" rx="12" fill="url(#cardGrad1)" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1.2"/>
+    <text x="600" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#818cf8">⚡</text>
+    <text x="628" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Classroom &amp; Virtual Labs</text>
+    <text x="600" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">BigBlueButton &bull; Oppia &bull; LearnHouse</text>
+  </g>
+
+  <!-- Bottom Accent Bar -->
+  <rect x="0" y="416" width="1200" height="4" fill="url(#accentGrad)"/>
+</svg>
