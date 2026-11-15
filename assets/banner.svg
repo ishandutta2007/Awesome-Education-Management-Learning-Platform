@@ -138,7 +138,7 @@
 
   <!-- Subtitle -->
   <text x="600" y="240" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
-    Enterprise SaaS Suites &bull; Open-Source LMS Platforms &bull; Student Information Systems (SIS)
+    Enterprise SaaS Suites &#8226; Open-Source LMS Platforms &#8226; Student Information Systems (SIS)
   </text>
 
   <!-- HIGHLIGHT CARDS (Bottom Feature Badges) -->
@@ -147,19 +147,19 @@
     <rect width="250" height="74" rx="12" fill="url(#cardGrad1)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.2"/>
     <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#38bdf8">🎓</text>
     <text x="48" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">LMS Course Delivery</text>
-    <text x="20" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">Moodle &bull; Canvas &bull; Open edX &bull; Frappe</text>
+    <text x="20" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">Moodle &#8226; Canvas &#8226; Open edX &#8226; Frappe</text>
 
     <!-- Card 2 -->
     <rect x="290" width="260" height="74" rx="12" fill="url(#cardGrad2)" stroke="rgba(192, 132, 252, 0.3)" stroke-width="1.2"/>
     <text x="310" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#c084fc">🏫</text>
     <text x="338" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Student Information Systems</text>
-    <text x="310" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">PowerSchool &bull; Gibbon &bull; RosarioSIS</text>
+    <text x="310" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">PowerSchool &#8226; Gibbon &#8226; RosarioSIS</text>
 
     <!-- Card 3 -->
     <rect x="580" width="260" height="74" rx="12" fill="url(#cardGrad1)" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1.2"/>
     <text x="600" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#818cf8">⚡</text>
     <text x="628" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Classroom &amp; Virtual Labs</text>
-    <text x="600" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">BigBlueButton &bull; Oppia &bull; LearnHouse</text>
+    <text x="600" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">BigBlueButton &#8226; Oppia &#8226; LearnHouse</text>
   </g>
 
   <!-- Bottom Accent Bar -->
