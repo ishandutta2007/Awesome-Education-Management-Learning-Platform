@@ -63,9 +63,9 @@ Enterprise-grade hosted platforms evaluated with institutional scale, transparen
 
 ## 💻 Open-Source GitHub Projects
 
-Curated list of production-ready, open-source learning management systems, student information systems, virtual classroom backbones, and creator course engines. **Sorted in descending order by GitHub Stars.**
+Curated list of production-ready, open-source learning management systems, student information systems, virtual classroom backbones, and creator course engines. **Sorted in descending order by GitHub_Stars.**
 
-| Project | GitHub Stars | Technology Stack | Description & Primary Use Case |
+| Project | GitHub_Stars | Technology Stack | Description & Primary Use Case |
 |:---|:---:|:---|:---|
 | **[BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)** | [![Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | Java, Scala, Node.js | **Open-source virtual classroom designed specifically for online learning.** Features real-time multi-user whiteboards, breakout rooms, screen sharing, polling, and native deep integration with Moodle, Canvas, and Sakai. |
 | **[Open edX](https://github.com/openedx/openedx-platform)** | [![Stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers) | Python, Django, React | **The enterprise platform powering edX.org, originally developed by MIT & Harvard.** Built to deliver massive open online courses (MOOCs) to millions of concurrent learners. Supports modular XBlocks, micro-credentials, and Tutor container deployment. |
@@ -103,7 +103,7 @@ When choosing between open-source platforms, match your organizational scale and
 Contributions to this ecosystem are warmly welcomed! 
 
 1. **Fork the repository** to your GitHub profile.
-2. **Add or update an entry** in `README.md` keeping entries alphabetically or sorted strictly by GitHub star count for open-source tools.
+2. **Add or update an entry** in `README.md` keeping entries alphabetically or sorted strictly by GitHub Stars_Count for open-source tools.
 3. Ensure all links point directly to official documentation or source code.
 4. **Submit a Pull Request (PR)** with a concise summary of the addition or pricing change.
 
