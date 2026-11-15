@@ -103,7 +103,7 @@ When choosing between open-source platforms, match your organizational scale and
 Contributions to this ecosystem are warmly welcomed! 
 
 1. **Fork the repository** to your GitHub profile.
-2. **Add or update an entry** in `README.md` keeping entries alphabetically or sorted strictly by GitHub Stars_Count for open-source tools.
+2. **Add or update an entry** in `README.md` keeping entries alphabetically or sorted strictly by GitHub_Stars_Count for open-source tools.
 3. Ensure all links point directly to official documentation or source code.
 4. **Submit a Pull Request (PR)** with a concise summary of the addition or pricing change.
 
